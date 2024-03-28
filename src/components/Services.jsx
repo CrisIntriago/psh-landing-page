@@ -4,20 +4,20 @@ import Image from "next/image";
 
 const Services = () => {
     return (
-        <section className="pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
+        <section className="pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] bg-[#f7f8fa]">
             <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4">
                         <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-                            <span className="mb-2 block text-lg font-semibold text-primary">
-                                Our Services
+                            <span className="mb-2 block text-lg font-semibold text-mi-naranja">
+                                Nuestros Servicios
                             </span>
                             <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark sm:text-4xl md:text-[40px]">
-                                What We Offer
+                                Ofrecemos
                             </h2>
                             <p className="text-base text-body-color">
-                                There are many variations of passages of Lorem Ipsum available
-                                but the majority have suffered alteration in some form.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Odio aliquam quia sed.
                             </p>
                         </div>
                     </div>
@@ -25,8 +25,9 @@ const Services = () => {
 
                 <div className="-mx-4 flex flex-wrap">
                     <ServiceCard
-                        title="Refreshing Design"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Auditoría
+                        Externa"
+                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
                         icon={
                             <svg
                                 width="36"
@@ -43,8 +44,9 @@ const Services = () => {
                         }
                     />
                     <ServiceCard
-                        title="Based on Tailwind CSS"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Diagnóstico
+                        Contable"
+                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
                         icon={
                             <svg
                                 width="36"
@@ -63,8 +65,9 @@ const Services = () => {
                         }
                     />
                     <ServiceCard
-                        title="100+ Components"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Outsourcing
+                        Contable Y Tributario"
+                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
                         icon={
                             <svg
                                 width="36"
@@ -93,8 +96,8 @@ const Services = () => {
                         }
                     />
                     <ServiceCard
-                        title="Speed Optimized"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Asesoría Contable"
+                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
                         icon={
                             <svg
                                 width="36"
@@ -115,8 +118,8 @@ const Services = () => {
                         }
                     />
                     <ServiceCard
-                        title="Fully Customizable"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Asesoría Financiera"
+                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
                         icon={
                             <svg
                                 width="36"
@@ -133,8 +136,8 @@ const Services = () => {
                         }
                     />
                     <ServiceCard
-                        title="Regular Updates"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Procesos Convenidos"
+                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
                         icon={
                             <svg
                                 width="36"

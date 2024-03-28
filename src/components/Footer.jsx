@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer className="relative z-10 bg-white pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
+        <footer className="relative z-10 bg-[#f7f8fa] pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
             <div class="container mx-auto">
                 <div class="-mx-4 flex flex-wrap">
                     <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -56,46 +56,46 @@ const Footer = () => {
                                         </defs>
                                     </svg>
                                 </span>
-                                <span>+012 (345) 678 99</span>
+                                <span>+593 (345) 678 99</span>
                             </p>
                         </div>
                     </div>
                     <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
                         <div class="mb-10 w-full">
                             <h4 class="mb-9 text-lg font-semibold text-dark">
-                                Resources
+                                Recursos
                             </h4>
                             <ul class="space-y-3">
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        SaaS Development
+                                        Auditoria Contable
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        Our Products
+                                        Auditoria Financiera
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        User Flow
+                                        Procesos Convenidos
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        User Strategy
+                                        Auditorias Externas
                                     </a>
                                 </li>
                             </ul>
@@ -104,39 +104,39 @@ const Footer = () => {
                     <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
                         <div class="mb-10 w-full">
                             <h4 class="mb-9 text-lg font-semibold text-dark">
-                                Company
+                                Compañía
                             </h4>
                             <ul class="space-y-3">
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        About TailGrids
+                                        Sobre PSH Auditores
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        Contact & Support
+                                        Contacto y Soporte
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        Success History
+                                        Historia
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        Setting & Privacy
+                                        Privacidad
                                     </a>
                                 </li>
                             </ul>
@@ -145,39 +145,31 @@ const Footer = () => {
                     <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
                         <div class="mb-10 w-full">
                             <h4 class="mb-9 text-lg font-semibold text-dark">
-                                Quick Links
+                                Enlaces
                             </h4>
                             <ul class="space-y-3">
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        Premium Support
+                                        Soporte
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        Our Services
+                                        Nuestros Servicios
                                     </a>
                                 </li>
                                 <li>
                                     <a
                                         href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
+                                        class="inline-block text-base leading-loose text-body-color hover:text-mi-naranja"
                                     >
-                                        Know Our Team
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="javascript:void(0)"
-                                        class="inline-block text-base leading-loose text-body-color hover:text-primary"
-                                    >
-                                        Download App
+                                        Conoce Nuestro Equipo
                                     </a>
                                 </li>
                             </ul>
@@ -186,12 +178,12 @@ const Footer = () => {
                     <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
                         <div class="mb-10 w-full">
                             <h4 class="mb-9 text-lg font-semibold text-dark">
-                                Follow Us On
+                               Síguenos en
                             </h4>
                             <div class="mb-6 flex items-center">
                                 <a
                                     href="javascript:void(0)"
-                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
                                 >
                                     <svg
                                         width="8"
@@ -206,7 +198,7 @@ const Footer = () => {
                                 </a>
                                 <a
                                     href="javascript:void(0)"
-                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
                                 >
                                     <svg
                                         width="16"
@@ -221,7 +213,7 @@ const Footer = () => {
                                 </a>
                                 <a
                                     href="javascript:void(0)"
-                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
                                 >
                                     <svg
                                         width="16"
@@ -236,7 +228,7 @@ const Footer = () => {
                                 </a>
                                 <a
                                     href="javascript:void(0)"
-                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+                                    class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
                                 >
                                     <svg
                                         width="14"
@@ -251,7 +243,7 @@ const Footer = () => {
                                 </a>
                             </div>
                             <p class="text-base text-body-color dark:text-dark-6">
-                                &copy; 2025 TailGrids
+                                &copy; 2024 PSH Auditores &amp; <br></br>Asociados
                             </p>
                         </div>
                     </div>

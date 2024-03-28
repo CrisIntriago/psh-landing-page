@@ -10,14 +10,13 @@ const Blog = () => {
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
                 <span className="mb-2 block text-lg font-semibold text-mi-naranja">
-                  Our Blogs
+                  Blog
                 </span>
                 <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-                  Our Recent News
+                  Nuestras Noticias Recientes
                 </h2>
                 <p className="text-base">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni distinctio libero accusamus aut quam inventore debitis?
                 </p>
               </div>
             </div>
@@ -25,21 +24,21 @@ const Blog = () => {
 
           <div className="-mx-4 flex flex-wrap">
             <BlogCard
-              date="Dec 22, 2023"
-              CardTitle="Meet AutoManage, the best AI management tools"
-              CardDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              date="Marzo 22, 2024"
+              CardTitle="NIIF 9: Una Guía Completa y su Importancia"
+              CardDescription="La NIIF 9, con su enfoque en los instrumentos financieros, ha marcado un antes y un después en cómo las empresas registran sus activos y pasivos financieros."
               image="https://i.ibb.co/Cnwd4q6/image-01.jpg"
             />
             <BlogCard
-              date="Dec 22, 2023"
-              CardTitle="Meet AutoManage, the best AI management tools"
-              CardDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              date="Enero 21, 2024"
+              CardTitle="Auditores Externos En Ecuador: Más Allá De Una Obligación Legal Y Normativa"
+              CardDescription="os auditores externos aportan una visión clara que puede identificar oportunidades de mejora que tal vez tu equipo interno haya pasado por alto. "
               image="https://i.ibb.co/Y23YC07/image-02.jpg"
             />
             <BlogCard
-              date="Dec 22, 2023"
-              CardTitle="Meet AutoManage, the best AI management tools"
-              CardDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+              date="Enero 2, 2024"
+              CardTitle="¿Qué Significado Tiene El Término “Costo O Esfuerzo Desproporcionado” En Las NIIF?"
+              CardDescription="El término «costo o esfuerzo desproporcionado» es un tema importante para el análisis, pues las Normas NIIF PYMES lo mencionan en algunas Normas."
               image="https://i.ibb.co/7jdcnwn/image-03.jpg"
             />
           </div>

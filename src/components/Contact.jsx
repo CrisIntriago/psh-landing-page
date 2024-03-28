@@ -9,10 +9,10 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
                 <span className="mb-4 block text-base font-semibold text-mi-naranja">
-                  Contact Us
+                  Contáctanos
                 </span>
                 <h2 className="mb-6 text-[32px] font-bold uppercase text-dark sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                  GET IN TOUCH WITH US
+                 Comunícate con Nostros
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -36,10 +36,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
-                      Our Location
+                      Nuestra Ubicación
                     </h4>
                     <p className="text-base text-body-color">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      Urdesa Monjas Mz10
                     </p>
                   </div>
                 </div>
@@ -76,10 +76,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
-                      Phone Number
+                      Número de Teléfono
                     </h4>
                     <p className="text-base text-body-color">
-                      (+62)81 414 257 9980
+                      (+593)81 414 257 9980
                     </p>
                   </div>
                 </div>
@@ -101,10 +101,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark">
-                      Email Address
+                      Correo Electrónico
                     </h4>
                     <p className="text-base text-body-color">
-                      info@yourdomain.com
+                      info@pshauditores.com
                     </p>
                   </div>
                 </div>
@@ -116,21 +116,21 @@ const Contact = () => {
                   <ContactInputBox
                     type="text"
                     name="name"
-                    placeholder="Your Name"
+                    placeholder="Nombre"
                   />
                   <ContactInputBox
                     type="text"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="Email"
                   />
                   <ContactInputBox
                     type="text"
                     name="phone"
-                    placeholder="Your Phone"
+                    placeholder="Tu Celular"
                   />
                   <ContactTextArea
                     row="6"
-                    placeholder="Your Message"
+                    placeholder="Tu Mensaje"
                     name="details"
                     defaultValue=""
                   />
@@ -139,7 +139,7 @@ const Contact = () => {
                       type="submit"
                       className="w-full rounded border border-primary bg-mi-naranja p-3 text-white transition hover:bg-opacity-90"
                     >
-                      Send Message
+                      Enviar Mensaje
                     </button>
                   </div>
                 </form>

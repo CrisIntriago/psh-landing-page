@@ -9,14 +9,14 @@ const Team = () => {
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <span className="mb-2 block text-lg font-semibold text-mi-naranja">
-                Our Team
+                Nuestro Equipo
               </span>
               <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark sm:text-4xl md:text-[40px]">
-                Our Awesome Team
+                Más de 20 años de trayectoria
               </h2>
               <p className="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Odio aliquam quia sed.
               </p>
             </div>
           </div>
@@ -24,23 +24,23 @@ const Team = () => {
 
         <div className="-mx-4 flex flex-wrap justify-center">
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
+            name="Cristian Intriago"
+            profession="CPA"
             imageSrc="https://i.ibb.co/T1J9LD4/image-03-2.jpg"
           />
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
+            name="Cristian Intriago"
+            profession="CPA"
             imageSrc="https://i.ibb.co/8P6cvVy/image-01-1.jpg"
           />
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
+            name="Cristian Intriago"
+            profession="CPA"
             imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg"
           />
           <TeamCard
-            name="Coriss Ambady"
-            profession="Web Developer"
+            name="Cristian Intriago"
+            profession="CPA"
             imageSrc="https://i.ibb.co/yVVT0Dp/image-02-2.jpg"
           />
         </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
     return (
-        <header className={`absolute left-0 top-0 z-20 flex w-full items-center`}>
+        <header className={`left-0 top-0 z-20 flex w-full items-center`}>
             <div className="container mx-auto">
                 <div className="relative -mx-4 flex items-center justify-between">
                     <div className="w-60 max-w-full px-4">
@@ -60,7 +60,7 @@ const Navbar = () => {
                                 href="/#"
                                 className="rounded-md bg-mi-naranja px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
                             >
-                                Contáctanos
+                                Contáctenos
                             </a>
                         </div>
 
