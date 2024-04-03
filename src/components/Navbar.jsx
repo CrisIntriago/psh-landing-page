@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import SocialMedia from "./Contacto/SocialMedia";
 
 const Navbar = () => {
 
@@ -9,8 +10,8 @@ const Navbar = () => {
 
 
     return (
-        <header className={`left-0 top-0 z-20 flex w-full items-center`}>
-            <div className="container mx-auto">
+        <header className={`bg-[#F9F6F0] left-0 top-0 z-20 flex w-full items-center`}>
+            <div className=" container mx-auto">
                 <div className="relative -mx-4 flex items-center justify-between">
                     <div className="w-60 max-w-full px-4">
                         <a href="/#" className="block w-full py-5">
@@ -28,16 +29,16 @@ const Navbar = () => {
                                 onClick={() => setOpen(!open)}
                                 id="navbarToggler"
                                 className={` ${open && "navbarTogglerActive"
-                                    } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                                    } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden text-black`}
                             >
-                                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
-                                <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color"></span>
+                                <span className="relative my-[6px] block h-[2px] w-[30px] bg-black"></span>
+                                <span className="relative my-[6px] block h-[2px] w-[30px] bg-black"></span>
+                                <span className="relative my-[6px] block h-[2px] w-[30px] bg-black"></span>
                             </button>
                             <nav
                                 // :className="!navbarOpen && 'hidden' "
                                 id="navbarCollapse"
-                                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${!open && "hidden"
+                                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-[#F9F6F0] px-6 py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${!open && "hidden"
                                     } `}
                             >
                                 <ul className="block lg:flex">
@@ -49,6 +50,11 @@ const Navbar = () => {
                         </div>
 
                         <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
+
+                                <SocialMedia />
+
+
+
                             <a
                                 href="/#"
                                 className="px-7 py-3 text-base font-medium text-dark hover:text-mi-naranja"
