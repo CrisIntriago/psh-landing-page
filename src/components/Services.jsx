@@ -5,7 +5,7 @@ import { FaAppStoreIos } from "react-icons/fa6";
 
 const Services = () => {
     return (
-        <section className="pb-12 pt-20 lg:pb-[90px] lg:pt-[60px] bg-[#f7f8fa]">
+        <section id="servicios" className="pb-12 pt-20 lg:pb-[90px] lg:pt-[60px] bg-[#f7f8fa]">
             <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4">

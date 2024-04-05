@@ -38,13 +38,13 @@ const Navbar = () => {
                             <nav
                                 // :className="!navbarOpen && 'hidden' "
                                 id="navbarCollapse"
-                                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-[#F9F6F0] px-6 py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${!open && "hidden"
+                                className={`z-10 absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-[#F9F6F0] px-6 py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${!open && "hidden"
                                     } `}
                             >
                                 <ul className="block lg:flex">
-                                    <ListItem NavLink="/#">Inicio</ListItem>
-                                    <ListItem NavLink="/#">Nosotros</ListItem>
-                                    <ListItem NavLink="/#">Servicios</ListItem>
+                                    <ListItem NavLink="/#inicio">Inicio</ListItem>
+                                    <ListItem NavLink="/#nosotros">Nosotros</ListItem>
+                                    <ListItem NavLink="/#servicios">Servicios</ListItem>
                                 </ul>
                             </nav>
                         </div>
@@ -56,14 +56,14 @@ const Navbar = () => {
 
 
                             <a
-                                href="/#"
+                                href="/#blog"
                                 className="px-7 py-3 text-base font-medium text-dark hover:text-mi-naranja"
                             >
                                 Blog
                             </a>
 
                             <a
-                                href="/#"
+                                href="/#contactanos"
                                 className="rounded-md bg-mi-naranja px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
                             >
                                 Contáctenos

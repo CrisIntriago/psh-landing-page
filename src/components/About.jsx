@@ -6,7 +6,7 @@ import BlogCard from "./Blog/BlogCard";
 const About = () => {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[60px] lg:pb-[60px] bg-[#f7f8fa]">
+      <section id="nosotros" className="overflow-hidden pt-20 pb-12 lg:pt-[60px] lg:pb-[60px] bg-[#f7f8fa]">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">

@@ -12,7 +12,7 @@ const Blog = async () => {
 
   return (
     <>
-      <section className="bg-[#F9F6F0] pb-10 pt-20 lg:pb-20 lg:pt-[60px]">
+      <section id="blog" className="bg-[#F9F6F0] pb-10 pt-20 lg:pb-20 lg:pt-[60px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
