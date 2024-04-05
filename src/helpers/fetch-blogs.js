@@ -9,7 +9,7 @@ const fetchBlogs = async (params) => {
     }
   
   
-    const request = await fetch(`${config.api}/api/blogs?populate=*&${params}`, reqOptions, { cache: 'no-store' });
+    const request = await fetch(`${config.api}/api/pshblogs?populate=*&${params}`, reqOptions);
     const response = await request.json();
   
     return response;

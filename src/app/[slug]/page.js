@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+
+
 import React from 'react'
 import Contact from '@/components/Contacto/Contact';
 import SocialMedia from '@/components/Contacto/SocialMedia';
@@ -12,7 +15,7 @@ const BlogDetails = async (props) => {
 
   const { data } = await fetchBlogs(`filters[slug][$eq]=${props.params.slug}`)
 
-  const query = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=2&pagination[page]=1&publicationState=live")
+  const query = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=2&pagination[page]=1&publicationState=live" )
   const cards = query.data;
   
   const contenido = await data[0].attributes.Contenido;

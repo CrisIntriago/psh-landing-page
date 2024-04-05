@@ -7,8 +7,8 @@ import fetchBlogs from "@/helpers/fetch-blogs";
 
 
 const Blog = async () => {
-
-  const { data } = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=3&pagination[page]=1&publicationState=live");
+ 
+  const { data } = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=3&pagination[page]=1&publicationState=live", { cache: 'no-store' });
 
   return (
     <>
