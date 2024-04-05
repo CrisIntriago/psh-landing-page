@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "PSH Auditores y Asociados",
-  description: "Excelencia en Auditorias",
+  description: "Auditores Independientes",
 };
 
 export default function RootLayout({ children }) {
