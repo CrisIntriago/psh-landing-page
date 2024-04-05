@@ -36,7 +36,6 @@ const Blog = async () => {
 
 
               <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-                {console.log("este es el eroor" + individual.attributes.Banner.data.attributes.formats.medium + "por culpa de: " + individual.id)}
                 <BlogCard
                   id={individual.id}
                   image={`${individual.attributes.Banner.data.attributes.formats.medium

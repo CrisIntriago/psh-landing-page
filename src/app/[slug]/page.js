@@ -21,7 +21,7 @@ const BlogDetails = async (props) => {
   const contenido = await data[0].attributes.Contenido;
 
   const imgbanner = await data[0].attributes.Banner;
-  console.log( config.api + imgbanner.data.attributes.url)
+  console.log(imgbanner.data.attributes.url)
 
   return (
     <>
@@ -33,7 +33,7 @@ const BlogDetails = async (props) => {
             <div className="absolute inset-0 bg-[#07255A] bg-opacity-50">
               <img
                 className="object-cover w-full h-full"
-                src={`${config.api + imgbanner.data.attributes.url}`}
+                src={`${imgbanner.data.attributes.url}`}
                 alt="Banner"
               />
             </div>

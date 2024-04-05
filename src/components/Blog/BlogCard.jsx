@@ -8,7 +8,7 @@ const BlogCard = ({ id, image, date, CardTitle, CardDescription , slug}) => {
         
           <div className="mb-10 w-full">
             <div className="mb-8 overflow-hidden rounded h-[200px] w-full content-center justify-center">
-              <img src={`${config.api+image}`} alt="" className="w-full" />
+              <img src={`${image}`} alt="" className="w-full" />
             </div>
             <div>
               {date && (
