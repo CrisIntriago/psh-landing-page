@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import IconoWhats from "@/components/IconoWhats/IconoWhats";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,7 @@ export default function RootLayout({ children }) {
         <div className="overflow-hidden">
 
 
-
+          <IconoWhats/>
 
           <Navbar />
 
