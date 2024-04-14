@@ -1,14 +1,14 @@
 import React from "react";
-import BlogCard from "./BlogCard";
+import BlogCard from "@/components/Blog/BlogCard";
 import config from "@/config";
 import fetchBlogs from "@/helpers/fetch-blogs";
+import Contact from "@/components/Contacto/Contact";
 
 
 
-
-const Blog = async () => {
-
-  const { data } = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=3&pagination[page]=1&publicationState=live", { cache: 'no-store' });
+const page = async () => {
+     
+  const { data } = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=6&pagination[page]=1&publicationState=live", { cache: 'no-store' });
 
   return (
     <>
@@ -23,9 +23,6 @@ const Blog = async () => {
                 <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
                   Nuestras Noticias Recientes
                 </h2>
-                <p className="text-base">
-                  Bienvenidos a la sección donde encontrarás las últimas noticias tributarias de Ecuador. Mantente informado con nosotros.
-                </p>
               </div>
             </div>
           </div>
@@ -55,9 +52,12 @@ const Blog = async () => {
 
         </div>
       </section>
+
+      <Contact/>
     </>
   );
 };
 
-export default Blog;
 
+
+export default page;

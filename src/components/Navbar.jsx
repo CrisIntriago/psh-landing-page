@@ -45,6 +45,7 @@ const Navbar = () => {
                                     <ListItem NavLink="/#inicio">Inicio</ListItem>
                                     <ListItem NavLink="/#nosotros">Nosotros</ListItem>
                                     <ListItem NavLink="/#servicios">Servicios</ListItem>
+                                    <ListItem NavLink="/blog">Blog</ListItem>
                                 </ul>
                             </nav>
                         </div>
@@ -55,12 +56,7 @@ const Navbar = () => {
 
 
 
-                            <a
-                                href="/#blog"
-                                className="px-7 py-3 text-base font-medium text-dark hover:text-mi-naranja"
-                            >
-                                Blog
-                            </a>
+                            
 
                             <a
                                 href="/#contactanos"
