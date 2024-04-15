@@ -1,8 +1,10 @@
 "use client"
 import React from "react";
+import { Slide } from "react-awesome-reveal";
 
 const Team = () => {
   return (
+    <Slide direction="up" triggerOnce cascade>
     <section className="pb-10 pt-20 lg:pb-20 lg:pt-[60px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
@@ -46,6 +48,7 @@ const Team = () => {
         </div>
       </div>
     </section>
+    </Slide>
   );
 };
 

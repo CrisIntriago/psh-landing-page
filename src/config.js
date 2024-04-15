@@ -1,5 +1,5 @@
 const config = {
-    api: process.env.STRAPI_URL
+    api: process.env.NEXT_PUBLIC_STRAPI_URL
 }
 
 export default config;
