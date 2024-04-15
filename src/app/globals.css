@@ -3,16 +3,37 @@
 @tailwind utilities;
 
 h1 {
-    @apply text-4xl font-bold my-4;
-  }
+  @apply text-3xl font-bold my-4;
+}
 
-  h2 {
-    @apply text-3xl font-semibold my-3 mb-6;
-  }
+h2 {
+  @apply text-2xl font-semibold my-3;
+}
 
-  p {
-    @apply text-base leading-relaxed my-2;
-  }
+h3 {
+  @apply text-xl font-medium my-2;
+}
 
+p {
+  @apply text-base leading-relaxed my-2;
+}
 
+table {
+  @apply min-w-full divide-y divide-gray-300;
+}
 
+thead {
+  @apply bg-gray-100;
+}
+
+th {
+  @apply text-left text-sm font-semibold text-gray-600 uppercase tracking-wider px-3 py-2;
+}
+
+tbody tr {
+  @apply bg-white;
+}
+
+td {
+  @apply px-3 py-2 border-b border-gray-300;
+}
