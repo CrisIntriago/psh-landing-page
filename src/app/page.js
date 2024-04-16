@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Navbar from "@/components/Navbar.jsx";
 import Hero from "@/components/Hero";
@@ -7,6 +8,7 @@ import Blog from "@/components/Blog/BlogHero";
 import Contact from "@/components/Contacto/Contact";
 import About from "@/components/About";
 import config from "@/config";
+import { Fade } from "react-awesome-reveal";
 
 
 
@@ -17,14 +19,17 @@ const Home = async () => {
 
   return (
     <>
+      <Fade>
       <Hero />
-      <Blog
+      </Fade>
       
-      />
+      <Blog/>
+      <Fade>
       <About />
       <Team />
       <Services />
       <Contact />
+      </Fade>
     </>
   );
 }
