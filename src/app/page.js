@@ -9,20 +9,29 @@ import Contact from "@/components/Contacto/Contact";
 import About from "@/components/About";
 import config from "@/config";
 import { Fade } from "react-awesome-reveal";
+import Head from "next/head";
 
-const Home =  () => {
+const Home = () => {
 
   return (
     <>
+      <Head>
+      <meta property="og:title" content={titulo} />
+        <meta property="og:description" content={resumen} />
+        <meta property="og:image" content={banner} />
+        <meta property="og:url" content={`https://www.auditorespsh.com/${props.params.slug}`} />
+        <meta property="og:type" content="article" />
+      </Head>
+
       <Fade>
-      <Hero />
+        <Hero />
       </Fade>
-      <Blog/>
+      <Blog />
       <Fade>
-      <About />
-      <Team />
-      <Services />
-      <Contact />
+        <About />
+        <Team />
+        <Services />
+        <Contact />
       </Fade>
     </>
   );

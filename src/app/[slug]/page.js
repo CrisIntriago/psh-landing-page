@@ -1,6 +1,6 @@
 export const dynamic = "force-dynamic";
 
-
+import Head from 'next/head';
 import React from 'react'
 import Contact from '@/components/Contacto/Contact';
 import SocialMedia from '@/components/Contacto/SocialMedia';
@@ -15,16 +15,37 @@ const BlogDetails = async (props) => {
 
   const { data } = await fetchBlogs(`filters[slug][$eq]=${props.params.slug}`)
 
-  const query = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=2&pagination[page]=1&publicationState=live" )
+  const query = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=2&pagination[page]=1&publicationState=live")
   const cards = query.data;
-  
+
   const contenido = await data[0].attributes.Contenido;
 
   const imgbanner = await data[0].attributes.Banner;
   console.log(imgbanner.data.attributes.url)
 
+
+
+  // Data
+
+  const titulo = data[0].attributes.Titulo
+  const banner = imgbanner.data.attributes.url
+  const resumen = data[0].attributes.Resumen;
+
   return (
     <>
+
+
+      <Head>
+        <title>{titulo}</title>
+        <meta property="og:title" content={titulo} />
+        <meta property="og:description" content={resumen} />
+        <meta property="og:image" content={banner} />
+        <meta property="og:url" content={`https://www.auditorespsh.com`} />
+        <meta property="og:type" content="article"/>
+      </Head>
+
+
+
       <section className="pb-10 pt-2 lg:pb-20 lg:pt-[20px]">
         <div className="container mx-auto">
 
@@ -33,14 +54,14 @@ const BlogDetails = async (props) => {
             <div className="absolute inset-0 bg-[#07255A] bg-opacity-50">
               <img
                 className="object-cover w-full h-full"
-                src={`${imgbanner.data.attributes.url}`}
+                src={`${banner}`}
                 alt="Banner"
               />
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center px-[15px]">
               <div className="text-white text-center">
-                <h1 className="text-2xl md:text-2xl lg:text-4xl font-bold mb-4">{data[0].attributes.Titulo}</h1>
+                <h1 className="text-2xl md:text-2xl lg:text-4xl font-bold mb-4">{titulo}</h1>
                 <p className="text-lg md:text-xl">{data[0].attributes.createdAt}</p>
               </div>
             </div>
