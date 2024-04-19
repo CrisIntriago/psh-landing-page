@@ -7,11 +7,37 @@ import Contact from "@/components/Contacto/Contact";
 
 
 const page = async () => {
-     
+
   const { data } = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=6&pagination[page]=1&publicationState=live", { cache: 'no-store' });
 
   return (
+
     <>
+      {/* 
+      <Head>
+        <title>My Awesome Page</title>
+        <meta name="description" content="A brief description of my page." />
+
+        {/* Open Graph / Facebook */}
+
+      {/*
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.mysite.com/my-page" />
+        <meta property="og:title" content="My Awesome Page" />
+        <meta property="og:description" content="A brief description of my page." />
+        <meta property="og:image" content="https://www.mysite.com/static/my-image.jpg" />
+ */}
+      {/* Twitter */}
+
+      {/* 
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="mysite.com" />
+        <meta property="twitter:url" content="https://www.mysite.com/my-page" />
+        <meta name="twitter:title" content="My Awesome Page" />
+        <meta name="twitter:description" content="A brief description of my page." />
+        <meta name="twitter:image" content="https://www.mysite.com/static/my-image.jpg" />
+      </Head>
+*/}
       <section id="blog" className="bg-[#F9F6F0] pb-10 pt-20 lg:pb-20 lg:pt-[60px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
@@ -53,7 +79,7 @@ const page = async () => {
         </div>
       </section>
 
-      <Contact/>
+      <Contact />
     </>
   );
 };

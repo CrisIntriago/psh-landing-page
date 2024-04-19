@@ -10,19 +10,13 @@ import About from "@/components/About";
 import config from "@/config";
 import { Fade } from "react-awesome-reveal";
 
-
-
-
-
-
-const Home = async () => {
+const Home =  () => {
 
   return (
     <>
       <Fade>
       <Hero />
       </Fade>
-      
       <Blog/>
       <Fade>
       <About />

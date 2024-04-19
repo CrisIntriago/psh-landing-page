@@ -1,13 +1,11 @@
 import config from "@/config";
-
+import formatoFecha from "@/helpers/formatoFecha";
 
 const BlogCard = ({ id, image, date, CardTitle, CardDescription , slug}) => {
 
 
-    const dateFormatted = new Date(date);
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const dateEspanol = formatoFecha(date);
 
-    const dateEspañol = Intl.DateTimeFormat("es-ES", options).format(dateFormatted);
     return (
       <>
         
@@ -16,9 +14,9 @@ const BlogCard = ({ id, image, date, CardTitle, CardDescription , slug}) => {
               <img src={`${image}`} alt="" className="w-full" />
             </div>
             <div>
-              {dateEspañol && (
+              {dateEspanol && (
                 <span className="mb-5 inline-block rounded bg-mi-naranja px-4 py-1 text-center text-xs font-semibold leading-loose text-white">
-                  {dateEspañol}
+                  {dateEspanol}
                 </span>
               )}
               <h3>
