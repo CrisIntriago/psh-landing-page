@@ -15,13 +15,6 @@ const Home = () => {
 
   return (
     <>
-      <Head>
-      <meta property="og:title" content={titulo} />
-        <meta property="og:description" content={resumen} />
-        <meta property="og:image" content={banner} />
-        <meta property="og:url" content={`https://www.auditorespsh.com/${props.params.slug}`} />
-        <meta property="og:type" content="article" />
-      </Head>
 
       <Fade>
         <Hero />

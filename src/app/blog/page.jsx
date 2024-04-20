@@ -1,43 +1,30 @@
-import React from "react";
+"use client"
+import React, { useState, useEffect } from "react";
 import BlogCard from "@/components/Blog/BlogCard";
 import config from "@/config";
 import fetchBlogs from "@/helpers/fetch-blogs";
 import Contact from "@/components/Contacto/Contact";
 
+const Page = () => {
+  const [datas, setData] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 6;
 
+  useEffect(() => {
+    const loadData = async () => {
+      const queryString = `sort[0]=createdAt:desc&pagination[pageSize]=${pageSize}&pagination[page]=${currentPage}&publicationState=live`;
+      const { data: fetchedData } = await fetchBlogs(queryString, { cache: 'no-store' });
+      setData(datas.concat(fetchedData));
+    };
+    loadData();
+  }, [currentPage]);
 
-const page = async () => {
-
-  const { data } = await fetchBlogs("sort[0]=createdAt:desc&pagination[pageSize]=6&pagination[page]=1&publicationState=live", { cache: 'no-store' });
+  const handleShowMore = () => {
+    setCurrentPage(prevPage => prevPage + 1);
+  };
 
   return (
-
     <>
-      {/* 
-      <Head>
-        <title>My Awesome Page</title>
-        <meta name="description" content="A brief description of my page." />
-
-        {/* Open Graph / Facebook */}
-
-      {/*
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.mysite.com/my-page" />
-        <meta property="og:title" content="My Awesome Page" />
-        <meta property="og:description" content="A brief description of my page." />
-        <meta property="og:image" content="https://www.mysite.com/static/my-image.jpg" />
- */}
-      {/* Twitter */}
-
-      {/* 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="mysite.com" />
-        <meta property="twitter:url" content="https://www.mysite.com/my-page" />
-        <meta name="twitter:title" content="My Awesome Page" />
-        <meta name="twitter:description" content="A brief description of my page." />
-        <meta name="twitter:image" content="https://www.mysite.com/static/my-image.jpg" />
-      </Head>
-*/}
       <section id="blog" className="bg-[#F9F6F0] pb-10 pt-20 lg:pb-20 lg:pt-[60px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
@@ -53,12 +40,8 @@ const page = async () => {
             </div>
           </div>
           <div className="-mx-4 flex flex-wrap">
-
-
-            {data.map(individual => (
-
-
-              <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+            {datas.map(individual => (
+              <div key={individual.id} className="w-full px-4 md:w-1/2 lg:w-1/3">
                 <BlogCard
                   id={individual.id}
                   image={`${individual.attributes.Banner.data.attributes.formats.medium
@@ -70,12 +53,13 @@ const page = async () => {
                   slug={individual.attributes.slug}
                 />
               </div>
-
             ))}
-
-
           </div>
-
+          <div className="text-center mt-4">
+            <button onClick={handleShowMore} className="px-6 py-2 rounded bg-mi-naranja text-white font-bold">
+              Mostrar más
+            </button>
+          </div>
         </div>
       </section>
 
@@ -84,6 +68,4 @@ const page = async () => {
   );
 };
 
-
-
-export default page;
+export default Page;
