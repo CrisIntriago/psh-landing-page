@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div id="inicio" className="hero-section relative h-screen">
         <div className="hero-image absolute inset-0 z-[-1]">
-          <img className="w-full h-full object-cover" src="/Hero.jpg" alt="Imagen de fondo" />
+          <img className="w-full h-full object-cover" src="/Hero.webp" alt="Imagen de fondo" />
         </div>
         <div className="container mx-auto py-10">
           <div className="flex flex-wrap -mx-4">

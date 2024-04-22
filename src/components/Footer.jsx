@@ -14,7 +14,7 @@ const Footer = () => {
                                 className="mb-6 inline-block max-w-[160px]"
                             >
                                 <Image
-                                    src="/Logo.png"
+                                    src="/Logo.webp"
                                     alt="logo"
                                     className="max-w-full"
                                     width={500}

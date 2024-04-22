@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className="w-60 max-w-full px-4">
                         <a href="/#" className="block w-full py-5">
                             <Image
-                                src="/Logo.png"
+                                src="/Logo.webp"
                                 alt="logo"
                                 width={500}
                                 height={500}
