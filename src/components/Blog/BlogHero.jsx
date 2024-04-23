@@ -35,7 +35,7 @@ const Blog = async () => {
             {data.map(individual => (
 
 
-              <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+              <div key={individual.id} className="w-full px-4 md:w-1/2 lg:w-1/3">
                 <BlogCard
                   id={individual.id}
                   image={`${individual.attributes.Banner.data.attributes.formats.medium

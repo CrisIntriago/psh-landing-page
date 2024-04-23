@@ -17,8 +17,8 @@ const Team = () => {
                 Más de 20 años de trayectoria
               </h2>
               <p className="text-base text-body-color">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Odio aliquam quia sed.
+              Todos experimentados en la profesión de auditoria, quienes conformaron los staff de firmas importantes y
+de amplio recorrido atendiendo a compañías de distintas industrias.
               </p>
             </div>
           </div>
@@ -26,25 +26,21 @@ const Team = () => {
 
         <div className="-mx-4 flex flex-wrap justify-center">
           <TeamCard
-            name="Cristian Intriago"
+            name="Tito Armando Portilla Muñoz"
             profession="CPA"
             imageSrc="https://i.ibb.co/T1J9LD4/image-03-2.jpg"
           />
           <TeamCard
-            name="Cristian Intriago"
+            name="Diana Deyanire Sánchez Bohorquez"
             profession="CPA"
             imageSrc="https://i.ibb.co/8P6cvVy/image-01-1.jpg"
           />
           <TeamCard
-            name="Cristian Intriago"
+            name="Herick Cesar Huacón Estrella"
             profession="CPA"
             imageSrc="https://i.ibb.co/30tGtjP/image-04.jpg"
           />
-          <TeamCard
-            name="Cristian Intriago"
-            profession="CPA"
-            imageSrc="https://i.ibb.co/yVVT0Dp/image-02-2.jpg"
-          />
+          
         </div>
       </div>
     </section>

@@ -4,9 +4,11 @@ const SocialMedia = () => {
     return (
         <div className="flex items-center">
             <a
-                href="javascript:void(0)"
+                href="https://www.facebook.com/pshauditores"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
-            >
+                >
                 <svg
                     width="8"
                     height="16"
@@ -19,7 +21,9 @@ const SocialMedia = () => {
                 </svg>
             </a>
             <a
-                href="javascript:void(0)"
+                href="https://twitter.com/pshauditores"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
             >
                 <svg
@@ -35,6 +39,8 @@ const SocialMedia = () => {
             </a>
             <a
                 href="javascript:void(0)"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
             >
                 <svg
@@ -49,7 +55,9 @@ const SocialMedia = () => {
                 </svg>
             </a>
             <a
-                href="javascript:void(0)"
+                href="https://www.linkedin.com/in/psh-auditores-59720b249"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-mi-naranja sm:mr-4 lg:mr-3 xl:mr-4"
             >
                 <svg

@@ -19,61 +19,43 @@ const Services = () => {
                                 Ofrecemos
                             </h2>
                             <p className="text-base text-body-color">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Odio aliquam quia sed.
+                            Nuestros asesores financieros dan un servicio de consultoría personalizada para ayudar a
+mitigar la incertidumbre asociada a la gestión contable y fiscal.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <div className="-mx-4 flex flex-wrap">
-                    <ServiceCard
-                        title="Auditoría
-                        Externa"
-                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                        icon={
-                            <FaAppStoreIos size={50}/>
-                        }
-                    />
-                    <ServiceCard
-                        title="Diagnóstico
-                        Contable"
-                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                        icon={
-                            <FaAppStoreIos size={50}/>
-                        }
-                    />
-                    <ServiceCard
-                        title="Outsourcing
-                        Contable Y Tributario"
-                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                        icon={
-                            <FaAppStoreIos size={50}/>
-                        }
-                    />
+                <ServiceCard
+    title="Consolidación de estados financieros"
+    details="Ofrecemos servicios especializados en la consolidación de estados financieros para garantizar la precisión y la transparencia en tus informes contables."
+    icon={<FaAppStoreIos size={50}/>}
+/>
 
+<ServiceCard
+    title="Lavado de activos"
+    details="Ayudamos a proteger tu empresa contra el lavado de activos mediante la implementación de medidas efectivas y el cumplimiento de regulaciones anti-lavado."
+    icon={<FaAppStoreIos size={50}/>}
+/>
 
-                    <ServiceCard
-                        title="Asesoría Contable"
-                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                        icon={
-                            <FaAppStoreIos size={50}/>
-                        }
-                    />
-                    <ServiceCard
-                        title="Asesoría Financiera"
-                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                        icon={
-                            <FaAppStoreIos size={50}/>
-                        }
-                    />
-                    <ServiceCard
-                        title="Procesos Convenidos"
-                        details="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-                        icon={
-                            <FaAppStoreIos size={50}/>
-                        }
-                    />
+<ServiceCard
+    title="Procedimientos convenidos"
+    details="Realizamos procedimientos convenidos para evaluar y validar información financiera específica, proporcionando resultados confiables y precisos para tus necesidades."
+    icon={<FaAppStoreIos size={50}/>}
+/>
+
+<ServiceCard
+    title="Implementación de NIIF"
+    details="Te asesoramos y apoyamos en la implementación de las Normas Internacionales de Información Financiera (NIIF), asegurando que tu empresa cumpla con los estándares internacionales de contabilidad."
+    icon={<FaAppStoreIos size={50}/>}
+/>
+
+<ServiceCard
+    title="Auditoría interna y externa"
+    details="Realizamos auditorías internas y externas exhaustivas para garantizar el cumplimiento normativo, identificar riesgos y mejorar la eficiencia operativa de tu organización."
+    icon={<FaAppStoreIos size={50}/>}
+/>
                 </div>
             </div>
         </section>

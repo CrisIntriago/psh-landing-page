@@ -27,13 +27,15 @@ const Hero = () => {
                   Auditores Independientes
                 </span>
                 <h1 className="mb-3 text-3xl font-bold leading-[1.208] text-dark md:text-4xl">
-                  PSH Auditores &amp; Asociados.
+                  PSH Auditores &amp; Asociados CIA. LTDA.
                 </h1>
-                <p className="mb-8 text-base font-medium text-body-color lg:mb-10">
-                  Como contadores y auditores certificados, nuestra labor es garantizar el interés y beneficio de nuestros clientes en todas sus decisiones de carácter financiero y cumplimiento de las normas.
-                </p>
+                <p className="mb-8 text-base font-medium text-body-color lg:mb-10">      
+                Como contadores y auditores certificados, nuestra labor es garantizar el interés y
+                beneficio de nuestros clientes en todas sus decisiones de carácter financiero y
+                cumplimiento de las normas. Con nuestra asesoría fiscal, contable y financiera,
+                podemos ayudarle a conseguir todos sus objetivos.                </p>
                 <div className="flex flex-wrap gap-3">
-                    <a href="javascript:void(0)" className="py-3 text-base font-medium text-white transition bg-mi-naranja px-7 hover:bg-blue-dark">
+                    <a href="#nosotros" className="py-3 text-base font-medium text-white transition bg-mi-naranja px-7 hover:bg-blue-dark">
                       Saber más
                     </a>
                   <a href="#servicios" className="inline-flex items-center px-6 py-3 text-base font-medium bg-white shadow-1 dark:shadow-none text-dark hover:text-mi-naranja">

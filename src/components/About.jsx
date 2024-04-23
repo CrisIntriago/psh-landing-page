@@ -609,7 +609,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-10 sm:px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-lg font-semibold text-primary">
                   ¿Por qué escogernos?
@@ -618,11 +618,23 @@ const About = () => {
                   Resolvemos y Asesoramos tus Asuntos Financieros
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro asperiores sit illo mollitia, quisquam enim placeat inventore ut vero modi. Voluptatibus repellat ab libero, sunt alias placeat nostrum eaque nesciunt.
+                Somos expertos en auditoría financiera externa, certificados y comprometidos con el éxito financiero de nuestros clientes.                 </p>
+                Nuestra asesoría fiscal, contable y financiera garantiza el cumplimiento normativo y maximiza sus resultados. Confíe en nosotros para alcanzar sus metas con eficacia y confianza.                
+                <p className="mb-3 text-base text-body-color dark:text-dark-6">
+                Nuestros principales clientes son:
                 </p>
-                <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro asperiores sit illo mollitia, quisquam enim placeat inventore ut vero modi.
-                </p>
+                <ul className="mb-8 list-disc ml-3">
+<li>MISION ALIANZA NORUEGA EN ECUADOR</li>
+<li>DELPYG S.A.</li>
+<li>PATRIMONIAL S.A.</li>
+<li>ARKAVID S.A.</li>
+<li>KURAL S.A.</li>
+<li>AGENCIA NAVIERA NEPTUNO S.A. TRADINGNEP</li>
+<li>SEA WORLD-TRAFFIC S.A.</li>
+<li>TECASEN S.A.</li>
+<li>CONSORCIO ANTROGATE</li>
+                </ul>
+
                 <a
                   href="javascript:void(0)"
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-mi-naranja hover:bg-opacity-90"

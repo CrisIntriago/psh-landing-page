@@ -22,8 +22,7 @@ const Footer = () => {
                                 />
                             </a>
                             <p className="mb-7 text-base text-body-color">
-                                Sed ut perspiciatis undmnis is iste natus error sit amet
-                                voluptatem totam rem aperiam.
+                            Contáctenos y deje que hagamos el trabajo por usted.
                             </p>
                             <p
                                 className="flex items-center text-sm font-medium text-dark"
@@ -57,7 +56,7 @@ const Footer = () => {
                                         </defs>
                                     </svg>
                                 </span>
-                                <span>+593 (345) 678 99</span>
+                                <span>(+593) 99 446-7830</span>
                             </p>
                         </div>
                     </div>

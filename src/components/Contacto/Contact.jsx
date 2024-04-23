@@ -15,9 +15,7 @@ const Contact = () => {
                  Comunícate con Nostros
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                Contáctenos y deje que hagamos el trabajo por usted.
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
@@ -39,7 +37,8 @@ const Contact = () => {
                       Nuestra Ubicación
                     </h4>
                     <p className="text-base text-body-color">
-                      Urdesa Monjas Mz10
+                    Matriz: Calle Manuel Medina Castro 2607 y Francisco Segura
+Oficina principal: Av. 9 de Octubre 826 entre Rumuchaca y García Avilés (Edificio Unión de Zapateros) Piso 2, Of. 9
                     </p>
                   </div>
                 </div>
@@ -79,7 +78,7 @@ const Contact = () => {
                       Número de Teléfono
                     </h4>
                     <p className="text-base text-body-color">
-                      (+593)81 414 257 9980
+                      (+593) 99 446-7830
                     </p>
                   </div>
                 </div>
@@ -104,7 +103,7 @@ const Contact = () => {
                       Correo Electrónico
                     </h4>
                     <p className="text-base text-body-color">
-                      info@pshauditores.com
+                      psh.auditores@gmail.com
                     </p>
                   </div>
                 </div>
