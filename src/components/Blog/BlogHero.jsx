@@ -13,7 +13,7 @@ const Blog = async () => {
   return (
     <>
       <section id="blog" className="bg-[#F9F6F0] pb-10 pt-20 lg:pb-20 lg:pt-[60px]">
-        <div className="container mx-auto">
+        <div className="container mx-2">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">

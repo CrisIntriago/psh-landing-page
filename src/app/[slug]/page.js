@@ -87,7 +87,7 @@ const BlogDetails = async (props) => {
           </div>
           <div className='flex w-full flex-wrap'>
 
-            <div className='pt-2 md:pt-11 lg:pt-11 zona-texto lg:w-3/4 md:w-2/3 w-full mx-auto  text-slate-800 lg:px-11 md:px-5 md:mr-7 pb-2 lg:pb-16 mt-5 bg-[#F9F6F0]  text-justify justify-center'>
+            <div className='pt-2 px-6 md:pt-11 lg:pt-11 zona-texto lg:w-3/4 md:w-2/3 w-full  text-slate-800 lg:px-11 md:px-5 md:mr-7 pb-2 lg:pb-16 mt-5 bg-[#F9F6F0]  text-justify justify-center'>
 
               {/* aqui va el texto*/}
               <BlocksRenderer content={contenido} />

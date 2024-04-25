@@ -7,16 +7,30 @@ const Contact = () => {
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div className="mb-12 max-w-[570px] lg:mb-0">
+              <div className="mb-12 mx-auto max-w-[570px] lg:mb-0">
                 <span className="mb-4 block text-base font-semibold text-mi-naranja">
                   Contáctanos
                 </span>
+
+
+
+
+                <div className="md:flex  md:flex-col md:items-center md:justify-center ">
+
+                  
                 <h2 className="mb-6 text-[32px] font-bold uppercase text-dark sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                  Comunícate con Nostros
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color">
                 Contáctenos y deje que hagamos el trabajo por usted.
                 </p>
+
+                </div>
+
+              <div className="flex flex-col items-center align-middle lg:items-start">
+
+
+
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
@@ -107,6 +121,12 @@ Oficina principal: Av. 9 de Octubre 826 entre Rumuchaca y García Avilés (Edifi
                     </p>
                   </div>
                 </div>
+
+
+                </div>
+
+
+
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
