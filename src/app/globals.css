@@ -37,3 +37,14 @@ tbody tr {
 td {
   @apply px-3 py-2 border-b border-gray-300;
 }
+
+.row {
+  display: flex;
+  margin-bottom: 16px;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.row > * {
+  display: flex;
+}

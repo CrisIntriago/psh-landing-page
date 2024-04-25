@@ -4,7 +4,7 @@ import SocialMedia from './Contacto/SocialMedia';
 
 const Footer = () => {
     return (
-        <footer className="relative z-10 bg-[#f7f8fa] pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
+        <footer className="relative z-10 bg-[#f7f8fa] pb-10 pt-20 px-4 lg:pb-20 lg:pt-[120px]">
             <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4 sm:w-2/3 lg:w-3/12">

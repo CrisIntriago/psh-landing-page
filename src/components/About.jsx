@@ -6,7 +6,7 @@ import BlogCard from "./Blog/BlogCard";
 const About = () => {
   return (
     <>
-      <section id="nosotros" className="overflow-hidden pt-20 pb-12 lg:pt-[60px] lg:pb-[60px] bg-[#f7f8fa]">
+      <section id="nosotros" className="overflow-hidden pt-20 pb-12 px-4 lg:pt-[60px] lg:pb-[60px] bg-[#f7f8fa]">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
@@ -618,23 +618,9 @@ const About = () => {
                   Resolvemos y Asesoramos tus Asuntos Financieros
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                Somos expertos en auditoría financiera externa, certificados y comprometidos con el éxito financiero de nuestros clientes.                 </p>
-                Nuestra asesoría fiscal, contable y financiera garantiza el cumplimiento normativo y maximiza sus resultados. Confíe en nosotros para alcanzar sus metas con eficacia y confianza.                
-                <p className="mb-3 text-base text-body-color dark:text-dark-6">
-                Nuestros principales clientes son:
-                </p>
-                <ul className="mb-8 list-disc ml-3">
-<li>MISION ALIANZA NORUEGA EN ECUADOR</li>
-<li>DELPYG S.A.</li>
-<li>PATRIMONIAL S.A.</li>
-<li>ARKAVID S.A.</li>
-<li>KURAL S.A.</li>
-<li>AGENCIA NAVIERA NEPTUNO S.A. TRADINGNEP</li>
-<li>SEA WORLD-TRAFFIC S.A.</li>
-<li>TECASEN S.A.</li>
-<li>CONSORCIO ANTROGATE</li>
-                </ul>
-
+                Somos expertos en auditoría financiera externa, certificados y comprometidos con el éxito financiero de nuestros clientes.         
+                <br/>Nuestra asesoría fiscal, contable y financiera garantiza el cumplimiento normativo y maximiza sus resultados. Confíe en nosotros para alcanzar sus metas con eficacia y confianza.</p>                
+                
                 <a
                   href="javascript:void(0)"
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-mi-naranja hover:bg-opacity-90"

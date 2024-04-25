@@ -10,6 +10,7 @@ import About from "@/components/About";
 import config from "@/config";
 import { Fade } from "react-awesome-reveal";
 import Head from "next/head";
+import Clients from "@/components/Clients";
 
 const Home = () => {
 
@@ -18,9 +19,10 @@ const Home = () => {
       <Fade>
         <Hero />
       </Fade>
-      <Blog />
+
       <Fade>
         <About />
+        <Clients/>
         <Team />
         <Services />
         <Contact />
