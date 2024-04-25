@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "PSH Auditores y Asociados",
   description: "Auditores Independientes",
+  openGraph: {
+    images: 'portada-psh.webp',
+  }
 };
 
 export default function RootLayout({ children }) {

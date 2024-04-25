@@ -1,6 +1,5 @@
 export const dynamic = "force-dynamic";
 
-import Head from 'next/head';
 import React from 'react'
 import Contact from '@/components/Contacto/Contact';
 import SocialMedia from '@/components/Contacto/SocialMedia';
@@ -8,6 +7,35 @@ import BlogCard from '@/components/Blog/BlogCard';
 import fetchBlogs from '@/helpers/fetch-blogs';
 import { BlocksRenderer } from '@strapi/blocks-react-renderer';
 import config from '@/config';
+
+
+
+
+export async function generateMetadata(props) {
+  // read route params
+
+  // fetch data
+  const { data } = await fetchBlogs(`filters[slug][$eq]=${props.params.slug}`)
+ 
+  const contenido = await data[0].attributes.Contenido;
+
+  const imgbanner = await data[0].attributes.Banner;
+  
+  const titulo = data[0].attributes.Titulo
+  const banner = imgbanner.data.attributes.url
+
+
+  return {
+    title: titulo,
+    openGraph: {
+      images: [banner],
+    },
+    description: "Auditores Independientes PSH",
+  }
+}
+
+
+
 
 
 const BlogDetails = async (props) => {
@@ -33,16 +61,6 @@ const BlogDetails = async (props) => {
 
   return (
     <>
-
-
-      <Head>
-        <title>{titulo}</title>
-        <meta property="og:title" content={titulo} />
-        <meta property="og:description" content={resumen} />
-        <meta property="og:image" content={banner} />
-        <meta property="og:url" content={`https://www.auditorespsh.com`} />
-        <meta property="og:type" content="article"/>
-      </Head>
 
 
 
@@ -123,4 +141,7 @@ const BlogDetails = async (props) => {
   )
 }
 
+
+
 export default BlogDetails;
+
