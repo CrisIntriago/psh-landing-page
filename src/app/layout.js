@@ -11,7 +11,7 @@ export const metadata = {
   title: "PSH Auditores y Asociados",
   description: "Auditores Independientes",
   openGraph: {
-    images: 'portada-psh.webp',
+    images: 'https://res.cloudinary.com/dc6dbkutq/image/upload/v1714065554/portada-psh_nlpclu.webp',
   }
 };
 
