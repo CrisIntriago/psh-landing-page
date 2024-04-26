@@ -7,7 +7,7 @@ import BlogCard from '@/components/Blog/BlogCard';
 import fetchBlogs from '@/helpers/fetch-blogs';
 import { BlocksRenderer } from '@strapi/blocks-react-renderer';
 import config from '@/config';
-
+import formatoFecha from '@/helpers/formatoFecha';
 
 
 
@@ -59,6 +59,8 @@ const BlogDetails = async (props) => {
   const banner = imgbanner.data.attributes.url
   const resumen = data[0].attributes.Resumen;
 
+  const fecha= formatoFecha(data[0].attributes.createdAt);
+
   return (
     <>
 
@@ -80,7 +82,7 @@ const BlogDetails = async (props) => {
             <div className="absolute inset-0 flex items-center justify-center px-[15px]">
               <div className="text-white text-center">
                 <h1 className="text-2xl md:text-2xl lg:text-4xl font-bold mb-4">{titulo}</h1>
-                <p className="text-lg md:text-xl">{data[0].attributes.createdAt}</p>
+                <p className="text-lg md:text-xl">{fecha}</p>
               </div>
             </div>
 
