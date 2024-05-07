@@ -70,14 +70,15 @@ const BlogDetails = async (props) => {
         <div className="container mx-auto">
 
           <div className=' relative w-full h-[300px] lg:h-[500px] lg:w-full '>
-
-            <div className="absolute inset-0 bg-[#07255A] bg-opacity-50">
+            <div className="absolute inset-0 bg-black bg-opacity-70">
               <img
                 className="object-cover w-full h-full"
                 src={`${banner}`}
                 alt="Banner"
+                style={{ filter: "brightness(50%)" }}
               />
             </div>
+
 
             <div className="absolute inset-0 flex items-center justify-center px-[15px]">
               <div className="text-white text-center">
