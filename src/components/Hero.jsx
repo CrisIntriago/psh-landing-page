@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="container mx-auto py-10">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
-              <div className="max-w-[570px] bg-white py-10 px-8 sm:p-12 md:p-[60px]">
+              <div className="max-w-[570px] bg-white py-10 px-8 sm:p-12 md:p-[60px] shadow-inner">
                 <span className="block mb-3 text-base font-medium text-mi-naranja">
                   Auditores Independientes
                 </span>

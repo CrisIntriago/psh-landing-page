@@ -16,11 +16,11 @@ export async function generateMetadata(props) {
 
   // fetch data
   const { data } = await fetchBlogs(`filters[slug][$eq]=${props.params.slug}`)
- 
+
   const contenido = await data[0].attributes.Contenido;
 
   const imgbanner = await data[0].attributes.Banner;
-  
+
   const titulo = data[0].attributes.Titulo
   const banner = imgbanner.data.attributes.url
 
@@ -59,7 +59,7 @@ const BlogDetails = async (props) => {
   const banner = imgbanner.data.attributes.url
   const resumen = data[0].attributes.Resumen;
 
-  const fecha= formatoFecha(data[0].attributes.createdAt);
+  const fecha = formatoFecha(data[0].attributes.createdAt);
 
   return (
     <>
@@ -89,7 +89,7 @@ const BlogDetails = async (props) => {
           </div>
           <div className='flex w-full flex-wrap'>
 
-            <div className='pt-2 px-6 md:pt-11 lg:pt-11 zona-texto lg:w-3/4 md:w-2/3 w-full  text-slate-800 lg:px-11 md:px-5 md:mr-7 pb-2 lg:pb-16 mt-5 bg-[#F9F6F0]  text-justify justify-center'>
+            <div className='pt-2 px-6 md:pt-11 lg:pt-11 zona-texto lg:w-3/4 md:w-2/3 w-full  text-slate-800 lg:px-11 md:px-5 md:mr-7 pb-2 lg:pb-16 mt-5 bg-[#F9F6F0]  text-justify justify-center shadow-md'>
 
               {/* aqui va el texto*/}
               <BlocksRenderer content={contenido} />
